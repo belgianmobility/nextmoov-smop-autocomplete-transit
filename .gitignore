@@ -1,0 +1,5 @@
+.directory
+.idea/
+node_modules/
+
+tmp/
