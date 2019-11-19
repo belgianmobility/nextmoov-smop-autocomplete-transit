@@ -16,7 +16,7 @@ You need to place GTFS zip files in the `tmp` directory aside the `docker-compos
 
 ### API
 
-After startup the API endpoint will be at http://localhost:8083/autocomplete/station
+After startup the API endpoint will be at http://localhost:8080/autocomplete/station
 
 You can send POST request with the following JSON data :
 
