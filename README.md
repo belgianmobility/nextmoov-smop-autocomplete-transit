@@ -4,6 +4,8 @@
 
 ## Modules
 
+After providing the GTFS zip files (see Importer hereafter), you can simply issue `docker-compose up`. The system will index all GTFS stops data in ElasticSearch and start the API.
+
 ### ElasticSearch
 
 ### Importer
