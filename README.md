@@ -4,15 +4,13 @@
 
 ## Modules
 
-After providing the GTFS zip files (see Importer hereafter), you can simply issue `docker-compose up`. The system will index all GTFS stops data in ElasticSearch and start the API.
+You need to provide the static GTFS files (See [General > launching-the-modules](https://github.com/nextmoov/nextmoov-smop-general/blob/master/README.md#launching-the-modules) for more information).
 
 ### ElasticSearch
 
 ### Importer
 
-See [General > data-sources](https://github.com/nextmoov/nextmoov-smop-general#data-sources) for information where to acquire the needed data.
-
-You need to place GTFS zip files in the `tmp` directory aside the `docker-compose.yml` from your favorite operators (naming convention `xxx-gtfs.zip`).
+The importer will index all GTFS stops data in ElasticSearch.
 
 ### API
 
