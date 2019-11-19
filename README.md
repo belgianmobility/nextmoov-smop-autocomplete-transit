@@ -1,6 +1,6 @@
-# SMOP - Autocomplete - Transit
+[< Back to general](https://github.com/nextmoov/nextmoov-smop-general)
 
-General information : [nextmoov-smop-general](https://github.com/nextmoov/nextmoov-smop-general)
+# SMOP - Autocomplete - Transit
 
 ## Modules
 
