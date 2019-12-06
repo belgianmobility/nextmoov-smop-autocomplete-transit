@@ -18,7 +18,7 @@ After startup the API endpoint will be at http://localhost:8080/autocomplete/sta
 
 You can send POST request with the following JSON data :
 
-```
+```JSON
 {
     "text": "bruxelles central"
 }
@@ -26,7 +26,7 @@ You can send POST request with the following JSON data :
 
 or with ordering by distance from a specific point :
 
-```
+```JSON
 {
     "text": "bruxelles central",
     "position": [50.84549, 4.35769],
@@ -36,7 +36,7 @@ or with ordering by distance from a specific point :
 
 Example of reply :
 
-```
+```JSON
 [
     {
         "_index": "station",
