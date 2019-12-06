@@ -2,6 +2,18 @@
 
 # SMOP - Autocomplete - Transit
 
+
+## Requirements
+  - docker
+
+
+## Running the service
+- clone the repo, and move into the creted folder  
+   `git clone git@github.com:nextmoov/nextmoov-smop-autocomplete-transit.git`
+- run via docker-compose  
+  `docker-compose up`
+
+
 ## Modules
 
 You need to provide the static GTFS files (See [General > launching-the-modules](https://github.com/nextmoov/nextmoov-smop-general/blob/master/README.md#launching-the-modules) for more information).
