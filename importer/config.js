@@ -1,4 +1,4 @@
 module.exports = {
-  tmpDir: './tmp',
+  tmpDir: './data',
   elasticConnection: 'autocomplete-transit-elastic:9200',
 };
