@@ -5,6 +5,15 @@
 #### Illustration
 ![app-develop-smb-pto-frontend nextmoov-ops now sh_to(iPhone 5_SE)](https://user-images.githubusercontent.com/10850995/70315407-ce24f900-1819-11ea-814a-8f098593d1a9.png)
 
+## Requirements
+  - docker
+
+## Running the service
+- clone the repo, and move into the creted folder  
+   `git clone git@github.com:nextmoov/nextmoov-smop-autocomplete-transit.git`
+- run via docker-compose  
+  `docker-compose up`
+
 
 ## Modules
 
@@ -22,7 +31,7 @@ After startup the API endpoint will be at http://localhost:8080/autocomplete/sta
 
 You can send POST request with the following JSON data :
 
-```
+```JSON
 {
     "text": "bruxelles central"
 }
@@ -30,7 +39,7 @@ You can send POST request with the following JSON data :
 
 or with ordering by distance from a specific point :
 
-```
+```JSON
 {
     "text": "bruxelles central",
     "position": [50.84549, 4.35769],
@@ -40,7 +49,7 @@ or with ordering by distance from a specific point :
 
 Example of reply :
 
-```
+```JSON
 [
     {
         "_index": "station",
