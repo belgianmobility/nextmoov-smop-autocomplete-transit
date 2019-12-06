@@ -17,7 +17,7 @@
 
 ## Modules
 
-You need to provide the static GTFS files (See [General > launching-the-modules](https://github.com/nextmoov/nextmoov-smop-general/blob/master/README.md#launching-the-modules) for more information).
+You need to provide the static GTFS files under the data folder (See [General > launching-the-modules](https://github.com/nextmoov/nextmoov-smop-general/blob/master/README.md#launching-the-modules) for more information).
 
 ### ElasticSearch
 
