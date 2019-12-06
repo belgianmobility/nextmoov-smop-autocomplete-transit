@@ -14,6 +14,10 @@
 - run via docker-compose  
   `docker-compose up`
 
+## Architecture
+![Software Architecture - Transit auto-complete](https://user-images.githubusercontent.com/10850995/70334927-a5672880-1846-11ea-86c6-89de78b81ffa.jpg)
+
+
 
 ## Modules
 
