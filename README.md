@@ -12,6 +12,7 @@
 ## Running the service
 - clone the repo, and move into the creted folder  
    `git clone git@github.com:nextmoov/nextmoov-smop-autocomplete-transit.git`
+- provide source data (see [Modules](https://github.com/nextmoov/nextmoov-smop-autocomplete-transit#modules))
 - run via docker-compose  
   `docker-compose up`
 
