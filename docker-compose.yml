@@ -26,14 +26,14 @@ services:
       - autocomplete-transit-elastic:/usr/share/elasticsearch/data
 
   autocomplete-transit-importer:
-    build: ./nextmoov-smop-autocomplete-transit/importer
+    build: ./importer
     depends_on:
       - autocomplete-transit-elastic
     volumes:
       - ./data:/app/tmp
 
   autocomplete-transit-api:
-    build: ./nextmoov-smop-autocomplete-transit/api
+    build: ./api
     depends_on:
       - autocomplete-transit-elastic
     labels:
