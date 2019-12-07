@@ -7,6 +7,7 @@
 
 ## Requirements
   - docker
+  - docker-compose
 
 ## Running the service
 - clone the repo, and move into the creted folder  
