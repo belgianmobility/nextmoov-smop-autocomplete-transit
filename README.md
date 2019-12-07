@@ -23,7 +23,8 @@
 
 ## Modules
 
-You need to provide the static GTFS files under the data folder (See [General > starting-things](https://github.com/nextmoov/nextmoov-smop-general/blob/master/README.md#starting-things) for more information).
+You need to provide the **static GTFS zip files** in the `data` directory  alongside the docker-compose.yml file.  
+The provided static GTFS files needs to be named xxx-gtfs.zip (where xxx is only composed of lower case letters - what you put in place of xxx doesn't matter as long as it follow the template. The otp-builder will look through the folder for file named according to said template – see [General > data-sources](https://github.com/nextmoov/nextmoov-smop-general/blob/master/README.md#data-sources) for more information).
 
 ### ElasticSearch
 
